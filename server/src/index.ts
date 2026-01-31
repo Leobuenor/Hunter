@@ -7,7 +7,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (_req, res) => {
-  res.send('API Hunter rodando')
+  res.send('API Hunter rodando...')
 })
 
 app.listen(3333, () => {
